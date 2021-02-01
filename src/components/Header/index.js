@@ -10,7 +10,7 @@ function Header() {
     <header className="navbar navbar-expand-lg navbar-light bg-light">
       <ul className="nav">
         <li className="nav-item">
-          <Link id="brand" to="/" className="nav-link">
+          <Link id="brand" to="/" className={location.pathname === "/" ? "nav-link active " : "nav-link"}>
           Aubrey Heim
           </Link>
         </li>
