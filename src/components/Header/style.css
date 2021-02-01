@@ -1,3 +1,38 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+.navbar {
+  background: rgb(197,144,130);
+  background: linear-gradient(0deg, rgba(197,144,130,1) 43%, rgba(116,76,68,1) 100%);
+}
+
+
+Link {
+  background-color:  #744c44;
+}
+
+.header-languages {
+  color: #744c44;
+}
+
+#brand {
+  color: #ffffff;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.portfolio-link{
+  margin-top: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.nav-link:hover {
+  color: #744c44 !important;
+}
+
+.active {
+  background: #744c44;
+}
+
+.active:hover {
+  color: white !important;
 }
