@@ -3,9 +3,12 @@
   background: linear-gradient(0deg, rgba(197,144,130,1) 43%, rgba(116,76,68,1) 100%);
 }
 
+.nav-link:hover{
+  color: #744c44 !important
+}
 
-Link {
-  background-color:  #744c44;
+.nav-link {
+  color: white !important;
 }
 
 .header-languages {
@@ -13,7 +16,6 @@ Link {
 }
 
 #brand {
-  color: #ffffff;
   font-family: 'Oleo Script Swash Caps', cursive;
   font-weight: bold;
   font-size: 30px;
@@ -21,12 +23,8 @@ Link {
 
 .portfolio-link{
   margin-top: 15px;
-  color: white;
   padding-bottom: 10px;
-}
-
-.nav-link:hover {
-  color: #744c44 !important;
+  
 }
 
 .active {
