@@ -11,3 +11,31 @@ div[data-reactroot] {
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-image: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: bold;
+  color:  #506a5fff;
+}
+
+.btn {
+  background-color: #744c44ff !important;
+  padding: 10px;
+  border-radius: 10px;
+  color: white !important;
+  text-align: center;
+  width: 100%
+}
+
+.btn:hover {
+  border-color: black;
+}

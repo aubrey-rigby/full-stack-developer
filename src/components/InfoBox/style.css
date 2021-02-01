@@ -1,0 +1,26 @@
+.info-box{
+    background-color:#a1aea7ff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot{
+    border-radius: 20px;
+    width:100%;
+}
+
+a {
+    color: #744c44ff;
+}
+
+a:hover {
+    color: #506a5fff;
+}
+
+h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+    color:  #506a5fff;
+}
