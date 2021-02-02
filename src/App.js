@@ -15,10 +15,10 @@ function App() {
         <Header />
         <Wrapper>
           <Container>
-            <Route exact path="/">
+            <Route exact path="/full-stack-developer">
               <About />
             </Route>
-            <Route exact path="/portfolio">
+            <Route exact path="/full-stack-developer/portfolio">
               <Portfolio />
             </ Route>
             <Route exact path="/*">

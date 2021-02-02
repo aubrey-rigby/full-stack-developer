@@ -10,12 +10,12 @@ function Header() {
     <header className="navbar navbar-expand-lg navbar-light bg-light">
       <ul className="nav">
         <li className="nav-item">
-          <Link id="brand" to="/" className={location.pathname === "/" ? "nav-link active " : "nav-link"}>
+          <Link id="brand" to="/full-stack-developer" className={location.pathname === "/full-stack-developer" ? "nav-link active " : "nav-link"}>
           Aubrey Heim
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active portfolio-link" : "nav-link portfolio-link"}>
+          <Link to="/full-stack-developer/portfolio" className={location.pathname === "/full-stack-developer/portfolio" ? "nav-link active portfolio-link" : "nav-link portfolio-link"}>
             Portfolio
           </Link>
         </li>
