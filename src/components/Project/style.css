@@ -1,1 +1,55 @@
+.info-box{
+  background-color:#a1aea7ff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: bold;
+  color:  #506a5fff;
+  display: inline;
+}
+
+.btn{
+  width:100% !important;
+}
+
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: none;
+  display: inline;
+  background-color: #a1aea7ff;
+}
+  
+.back::after {
+  content: "\f0a8";
+}
+
+.next::after {
+  content: "\f0a9";
+}
+
+.button-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+  

@@ -1,0 +1,13 @@
+.carousel-inner {
+    width:75% !important;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-prev{
+    opacity: 100% !important;
+    color: black !important;
+    margin: 0 !important;
+}
+
