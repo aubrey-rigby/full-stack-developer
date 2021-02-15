@@ -4,8 +4,18 @@ import BudgerTracker from "./projectImages/budget-tracker.gif"
 import EatDaBurger from "./projectImages/eat-da-burger.gif"
 import GifNJelly from "./projectImages/gifNjelly.gif"
 import ReactDirectory from "./projectImages/react-employee-directory.gif"
+import BookSearch from "./projectImages/books-search.gif"
 
 const Projects = [
+    {
+        name: "React Book Search",
+        image: BookSearch,
+        description: 'This application utilizes the Google Books API so that users can search for books. They are then able to view these books on Google Books, or save them to the database. Users can view their saved books on the "/saved" page, and also delete these books from the list.',
+        utilizes: "Utilizes React, JSX, Axios, Express, MongoDB, Mongoose, Material-UI",
+        repo: "https://github.com/aubrey-heim/react-book-search",
+        app: "https://gentle-escarpment-90617.herokuapp.com/",
+        login: "",
+    },
     {
         name: "React Employee Directory",
         image: ReactDirectory,
