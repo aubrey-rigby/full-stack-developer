@@ -4,17 +4,17 @@ import BudgerTracker from "./projectImages/budget-tracker.gif"
 import EatDaBurger from "./projectImages/eat-da-burger.gif"
 import GifNJelly from "./projectImages/gifNjelly.gif"
 import ReactDirectory from "./projectImages/react-employee-directory.gif"
-import BookSearch from "./projectImages/books-search.gif"
+import SmokingGun from "./projectImages/smoking-gun.png"
 
 const Projects = [
     {
-        name: "React Book Search",
-        image: BookSearch,
-        description: 'This application utilizes the Google Books API so that users can search for books. They are then able to view these books on Google Books, or save them to the database. Users can view their saved books on the "/saved" page, and also delete these books from the list.',
-        utilizes: "Utilizes React, JSX, Axios, Express, MongoDB, Mongoose, Material-UI",
-        repo: "https://github.com/aubrey-heim/react-book-search",
-        app: "https://gentle-escarpment-90617.herokuapp.com/",
-        login: "",
+        name: "The Smoking Gun",
+        image: SmokingGun,
+        description: "A customizable, digital bullet journal where you can store different kinds of information all in one place. Built mobile-first, this application will allow you to stay organized both at home and on the go. It's easy to add, edit and delete lists, keep track of daily habits, manage your calendar, throw your thoughts into the journal or take some time to yourself and doodle away with the ability to save or download your own doodles.",
+        utilizes: "Utilizes React, MongoDB, Mongoose, Axios, Express, Material-UI, Firebase, FullCalendar, Chart.js, Gravatar, Geolocation, various APIs",
+        repo: "https://github.com/UWB-Bandits/the-smoking-gun",
+        app: "https://the-smoking-gun.herokuapp.com/",
+        login: "Guest login: test@presentation.com Password: password",
     },
     {
         name: "React Employee Directory",
