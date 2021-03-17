@@ -10,9 +10,9 @@ function Project() {
   return (    
     <div className="info-box mt-3">
         <div className="button-container">
-          <button onClick={onClick} className="arrow back" data-value="back"/>          
+          <button onClick={onClick} className="arrow back" aria-label="back arrow" data-value="back"/>          
           <h2 className="p-3 text-center">{name}</h2>
-          <button onClick={onClick} className="arrow next" data-value="next"/>           
+          <button onClick={onClick} className="arrow next" aria-label="next arrow" data-value="next"/>           
         </div>
           <Row>
             <Col size="sm-0 md-1 lg-2" />
