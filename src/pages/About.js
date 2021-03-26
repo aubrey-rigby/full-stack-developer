@@ -21,7 +21,6 @@ function About() {
                 <InfoBox header="Technologies" content="GitHub, Heroku, VSCode, Bootstrap, Node.js, JQuery, React, Handlebars, MySQL, MongoDB, APIs, Express.js, Mongoose, Sequelize"/>
             </Col>
         </Row>
-        <a href="https://aubrey-100-days-of-code.herokuapp.com/" target="_blank" rel="noreferrer"><button  id="100-days-button" className="my-2 btn"><i class="fas fa-chart-line" style={{marginRight:"10px"}}></i>Watch me progress through 100 days of code</button></a>
       </div>                
       </div>
   );
