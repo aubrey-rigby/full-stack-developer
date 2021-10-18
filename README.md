@@ -16,5 +16,5 @@ Please feel free to reach out to me with any questions.
 
 GitHub: [aubrey-rigby](https://github.com/aubrey-rigby)
 
-Email: [aubrey.rigby@gmail.com](mailto:aubrey.l.rigby@gmail.com)
+Email: [aubrey.rigby@gmail.com](mailto:aubrey.rigby@gmail.com)
 
