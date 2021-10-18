@@ -11,7 +11,7 @@ function Header() {
       <ul className="nav">
         <li className="nav-item">
           <Link id="brand" to="/full-stack-developer" className={location.pathname === "/full-stack-developer" ? "nav-link active " : "nav-link"}>
-          Aubrey Heim
+          Aubrey Rigby
           </Link>
         </li>
         <li className="nav-item">
