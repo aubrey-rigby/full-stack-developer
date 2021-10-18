@@ -3,7 +3,7 @@ import ContactBox from "../components/ContactBox"
 import InfoBox from "../components/InfoBox"
 import Col from "../components/Col"
 import Row from "../components/Row"
-import Aubrey from "../utils/aubrey.png"
+import Aubrey from "../utils/aubrey.jpg"
 import Resume from "../utils/resume.pdf"
 
 function About() {
