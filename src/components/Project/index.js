@@ -17,7 +17,7 @@ function Project() {
           <Row>
             <Col size="sm-0 md-1 lg-2" />
             <Col size="sm-12 md-10 lg-8" >
-              <img className="mb-3" placeholder="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" src={image} alt={`screenshot of ${name}`}/>
+              <img className="mb-3" src={image} alt={`screenshot of ${name}`}/>
             </Col>
             <Col size="sm-0 md-1 lg-2" />
           </Row>
