@@ -1,3 +1,9 @@
+import Bored from "./projectImages/bored.gif"
+import EmployeeTracker from "./projectImages/employee-tracker.gif"
+import BudgerTracker from "./projectImages/budget-tracker.gif"
+import EatDaBurger from "./projectImages/eat-da-burger.gif"
+import GifNJelly from "./projectImages/gifNjelly.gif"
+import ReactDirectory from "./projectImages/react-employee-directory.gif"
 import SmokingGun from "./projectImages/smoking-gun.png"
 
 const Projects = [
@@ -12,7 +18,7 @@ const Projects = [
     },
     {
         name: "React Employee Directory",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/react-employee-directory.gif?raw=true",
+        image: ReactDirectory,
         description: "This Employee Directory is created using the React library and JSX. I was able to use components to easily respond to user interaction and inputs. 20 employees are randomly generated when the page loads, and their information is shown. Users are able to search for an employee by their name, phone number, or email. Users are also able to sort the order of the employees by these fields.",
         utilizes: "Utilizes React, JSX, Axios, Bootstrap, randomuser.me",
         repo: "https://github.com/aubrey-rigby/react-employee-directory",
@@ -21,7 +27,7 @@ const Projects = [
     },
     {
         name: "gifNjelly",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/gifNjelly.gif?raw=true",
+        image: GifNJelly,
         login: "Guest login: guest@guest.com Password: password ",
         description: "gifNjelly users are able caption gifs that are currently trending. Other users are then able to vote on these captions.",
         utilizes: "Utilizes SweetAlert, Handlebars, Giphy API, Express, Sequelize, MySQL, Passport, BCrypt, and Axios.",
@@ -30,7 +36,7 @@ const Projects = [
     },
     {
         name: "Budget Tracker",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/budget-tracker.gif?raw=true",
+        image: BudgerTracker,
         description: "This Budget Tracker is a Progressive Web Application which allows users to access the application and input transactions while offline. Offline trasactions are stored using the browser's IndexDB. Static application files and data are cached through the use of a webmanifest and service workers.",
         utilizes:"Utilizes IndexDB, Mongoose, webmanifest, service-workers",
         repo: "https://github.com/aubrey-rigby/budget-tracker",
@@ -39,7 +45,7 @@ const Projects = [
     },
     {
         name: "!Bored",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/bored.gif?raw=true",
+        image: Bored,
         description: "!Bored is an application which pulls event, attraction, and weather data from a user’s location to recommend activities.",
         utilizes:"Utilizes HTML, CSS, JavaScript, JQuery, Semantic UI, several APIs",
         repo: "https://github.com/dancornutt/UWB-ActivityApp",
@@ -48,7 +54,7 @@ const Projects = [
     },
     {
         name: "Employee Tracker",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/employee-tracker.gif?raw=true",
+        image: EmployeeTracker,
         description: "This Employee Tracker has the ability to create, read, update, and delete (CRUD) departments, roles, and employees in the terminal.",
         utilizes:"Utilizes Node.js and the Inquirer, MySQL, and Console.Table npm packages.",
         repo: "https://github.com/aubrey-rigby/employee-tracker",
@@ -57,7 +63,7 @@ const Projects = [
     },
     {
         name: "Eat-da-Burger",
-        image: "https://github.com/aubrey-rigby/full-stack-developer/blob/main/src/utils/projectImages/eat-da-burger.gif?raw=true",
+        image: EatDaBurger,
         description: "Eat-da-Burger takes in burgers and stores them in a database along with whether or not they have been devoured.",
         utilizes: "Utilizes Handlebars, MVC framework, ORMs, Express.js, MySQL as well as GET, POST, and PUT routes.",
         repo: "https://github.com/aubrey-rigby/burger",
